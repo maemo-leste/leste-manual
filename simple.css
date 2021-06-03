@@ -1,0 +1,32 @@
+body {
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 1.15em;
+    margin: 1.5em 1.5em;
+    padding: 0 2em;
+}
+
+@media screen { body { max-width: 600pt; } }
+@media print { body { font-size: 11pt !important; } }
+
+p { text-align: justify; }
+.literal, .literal-block { background: #F3F3F3; }
+.section { margin: 2.5em 0; }
+
+.footnote {
+    background: #F3FFFF;
+    border: 1px solid #999;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    border-color: #999;
+}
+
+.wide-table {
+    width: 100%;
+}
+
+thead { background-color: #EEE; }
+th { text-align: left; }
+caption, th, td { padding: 0.4em 1.3em; }
